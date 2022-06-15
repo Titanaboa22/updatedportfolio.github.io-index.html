@@ -1,0 +1,151 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: linear-gradient(90deg, white 50%, #D94850 50%);
+}   
+li{
+    word-spacing: 100px;
+    display: inline;
+    position: relative;
+    left: 230px;
+    font-family: Segoe UI Black;
+    color: #D94850;
+} 
+li a{
+    color: #da4850;
+    text-decoration: none;
+    
+}
+
+ul{
+    word-spacing: 70px;
+    
+}
+
+h1{
+    position: relative;
+    left: 90px ;
+    bottom: -300px;
+    font-size: 53px;
+    font-family: druk;
+    color: #D94850;;
+}
+
+h2{
+    position: relative;
+    left: 90px ;
+    bottom: -260px;
+    font-size: 53px;
+    font-family: druk;
+    color: #D94850;;
+}
+
+h3{
+    position: relative;
+    left: 80px ;
+    bottom: -210px;
+    font-size: 53px;
+    font-family: druk;
+    color: #D94850;;
+}
+.pes{
+    display: grid;
+    position: relative;
+    right: -1200px;
+    top: -790px;
+}
+.description{
+    display: grid;
+    position: relative;
+    left: 1200px;
+    bottom: -120px;
+    font-size: 59px;
+    font-family: Segoe Ui light;
+    color: white;
+}
+
+@media only screen and (max-width:1024px){
+    li{
+   
+            display: block;
+            width: 100px;
+       
+        align-content: center;
+        position: relative;
+        left: 10px;
+        font-family: Segoe UI Black;
+        font-size: 15px;
+    } 
+}
+
+@media only screen and (max-width:1024px){
+    ul{
+        word-spacing: 10px;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    h1{
+        position: relative;
+        left: 30px ;
+        bottom: -250px;
+        font-size: 10px;
+        font-family: druk;
+        color: #D94850;;
+    }
+}
+@media only screen and (max-width:1024px){
+h2{
+    position: relative;
+    left: 30px ;
+    bottom: -250px;
+    font-size: 10px;
+    font-family: druk;
+    color: #D94850;;
+}
+}
+@media only screen and (max-width:1024px){
+h3{
+    position: relative;
+    left: 30px ;
+    bottom: -250px;
+    font-size: 10px;
+    font-family: druk;
+    color: #D94850;;
+}
+}
+
+@media only screen and (max-width:1024px){
+    .description{
+        display: grid;
+        position: relative;
+        right: -700px;
+        bottom: -120px;
+        font-size: 59px;
+        font-family: Segoe Ui light;
+        color: white;
+    } 
+}
+
+@media only screen and (max-width:1024px){
+    .pes{
+        display: grid;
+        position: relative;
+        right: -100px;
+        top: -550px;
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    img{
+       
+        height: 250px;
+        width: 250px;
+    }
+}
